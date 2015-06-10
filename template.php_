@@ -1,0 +1,39 @@
+<?php
+//template.php 
+
+    include "include/config.php";
+
+?>
+
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+    
+    <!-- here goes the HEAD, which includes the <head> section: <title>, <meta>, <link> (styles, fonts, etc.)-->    
+    <?php include "include/head_inc.php"; ?>
+    
+<body>
+    
+    <!-- here goes the HEADER, which includes the <NAV> -->    
+    <?php include "include/header_inc.php"; ?>
+
+    
+<!-- MAIN CONTENT START, this is the 'guts' (identity) area of the page ----------------------------------------->
+	<section>            
+            
+        <h1><?=$pageName?></h1>
+             
+        
+        <p>content of the <?=$pageTitle?> page</p>
+        
+        
+    </section>
+<!-- MAIN CONTENT END ------------------------------------------------------------------------------------------->
+
+    
+    
+<!-- here goes the FOOTER, from footer_inc.php -->    
+    <?php include "include/footer_inc.php"; ?>
+
+</body>
+</html>

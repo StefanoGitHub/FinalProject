@@ -1,0 +1,403 @@
+/* Website template by freewebsitetemplates.com */
+/*------------------------- Layout styles ------------------------*/ 
+body{
+	margin:0;
+	background:url(../images/top-bar.gif) repeat-x;
+	position:relative;
+}
+.background{
+	position:relative;
+	margin:7px 0 0;
+	background:url(../images/bg-body.jpg);
+	z-index:0;
+}
+/*#bg{
+	position:absolute;
+    width:51%;
+    z-index:-1;
+	margin:0;
+	height:100%;
+	left:0;
+	background:url(../images/bg-body2.jpg);
+	text-indent:-99999px;
+}*/
+.page{
+	width: 950px;
+	background:url(../images/bg-page.jpg) repeat-y;
+	margin:0 auto;
+	padding:34px 0 0;
+	overflow:hidden;
+}
+
+/*-------------------------	Sidebar --------------------------*/
+header{
+	float:left;
+}
+        header div#logo{
+            background:url(../images/interface.jpg) no-repeat 0 -155px;
+            width:270px;
+            height:158px;
+        }
+        header div#logo a{
+            border:0;
+            display:block;
+            text-align:center;
+            padding:18px 0 0;
+        }
+        /*header div#logo a img{
+            border:0;
+        }*/
+
+
+        /*------- Nav top --------*/
+                nav.top ul{
+                    margin:0 0 0 25px;
+                    padding:0 0 30px;
+                    list-style:none;
+                    background:url(../images/interface.jpg) no-repeat 0 -333px;
+                    height:auto;
+                    width:222px;
+                    border:1px;
+                    border-width:1px;
+                    border-color:#cec48d;
+                    border-style:none none solid none;
+                }
+                nav.top ul li.current{
+                    background:url(../images/bg-menu-selected.jpg) no-repeat center top;
+                }
+                nav.top ul li.current a{
+                    color:#492606;
+                    text-shadow: 0 1px 0 #fff;
+                    background:url(../images/bg-menu-shadow.gif) no-repeat right 35px;
+                    height:44px;
+                }
+                nav.top ul li a:hover{
+                    color:#492606;
+                }
+                nav.top ul li{
+                    width:186px;
+                    margin:0 auto;
+                    height:44px;
+                }
+                nav.top ul li a{
+                    font-family:arial;
+                    color:#a58633;
+                    font-weight:bold;
+                    text-decoration:none;
+                    font-size:18px;
+                    text-align:center;
+                    display:block;
+                    line-height:35px;
+                }
+
+
+
+        /*------- Contacts --------*/
+                header .connect{
+                    margin: 6px 0 0 25px;
+                    background:url(../images/interface.jpg) no-repeat;
+                    width:224px;
+                    height:64px;
+                    text-align:center;
+                    z-index: 1;
+                }
+                header .connect img {
+                    margin: 8px;
+                    width: 135px;
+                    filter:alpha(opacity=90);
+                    opacity:0.9;
+                }
+                header .connect img:hover{
+                    filter:alpha(opacity=60);
+                    opacity:0.6;
+                }
+                /*header .connect a{
+                    display:block;
+                    text-indent:-99999px;
+                    height:26px;
+                    float:left;
+                }
+                
+                /*header div.connect a.facebook{
+                    width:25px;
+                    background:url(../images/facebook2_150.png) no-repeat;
+                    margin:17px 0 0 37px;
+                }
+                header div.connect a.twitter{
+                    width:36px;
+                    background:url(../images/icons.gif) no-repeat 0 -46px;
+                    margin:17px 0 0 31px;
+                }
+                header div.connect a.vimeo{
+                    width:30px;
+                    background:url(../images/icons.gif) no-repeat 0 -92px;
+                    margin:17px 0 0 28px;
+                }*/
+
+
+/*-------------------------	Section --------------------------*/
+section{
+    /*width:70%;*/
+	float:left;
+	padding:0 0 0 23px;
+}
+    section article div{
+        /*width:100%;*/
+        background:url(../images/border-dashed.gif) repeat-x left bottom;
+        padding:0 0 7px;
+    }
+        section article div.figure{
+            background:url(../images/bg-headline.jpg) no-repeat center 390px;
+            height:460px;
+                    /*width:100%;
+            		min-width656px;*/
+            width:656px;
+            padding:0 0 20px;
+        }
+        section article div.figure img.cover {
+                    width: 100%;
+        }
+            section article div.figure div{
+                /*width:100%;*/
+                height:46px;
+                background:url(../images/border-dashed.gif) repeat-x left bottom;
+                padding:0 0 40px;
+                margin:6px 0 0;
+            }
+                section article div.figure div img{
+                    float:left;
+                    margin:0 0 0 20px;
+                }
+                section article div.figure div p{
+                    margin:0 20px 0 0;
+                    width:auto;
+                    float:right;
+                    font-family:arial;
+                    color:#b6b0a2;
+                    font-size:18px;
+                    line-height:30px;
+                }
+
+section article div p, 
+section article div#about p,
+section article div#contacts p,
+section article div#gallery p,
+section article div#contacts div form{
+	/*width:100%;
+	min-width:656px;*/
+	width:656px;
+	font-family:arial;
+	font-size:14px;
+	color:#919e72;
+	text-align:justify;
+	margin:25px 0 0;
+	line-height:21px;
+}
+
+section article table tr td {
+    	width:656px;
+	font-family:arial;
+	font-size:14px;
+	color:#919e72;
+	text-align:justify;
+	margin:25px 0 0;
+	line-height:21px;
+    text-align: center;
+}
+/*section article div p span{
+	font-family:arial;
+	font-size:16px;
+	color:#919e72;
+}*/
+/*to keep links inside the text green */
+section article div p span a,
+section article div p a,
+section article div#about p a, 
+section article div#gallery p a,
+section article div#contacts p a{
+	color:#919e72;
+}
+section article ul{
+    	        /*width:100%;*/
+	list-style:none;
+	margin:35px 0 0;
+	padding:0 0 20px;
+	overflow:hidden;
+	background:url(../images/border-dashed.gif) repeat-x left bottom;
+}
+section article div#about div ul{
+	background:none;
+	padding:0;
+}
+/*------ Pics bottom -------*/
+        section article ul li.first,
+        section article div#about div ul li.first{
+            margin:0;
+        }
+        section article ul li{
+            height:auto;
+            background:url(../images/bg-label.jpg) no-repeat left 150px;
+            float:left;
+            margin:0 0 0 45px;
+        }
+        section article ul li a img{
+            border:0;
+        }
+        section article ul li a img:hover{
+            filter:alpha(opacity=80);
+            opacity:0.8;
+        }
+        section article ul li span,
+        section article div#about div ul li span{
+            display:block;
+            text-align:center;
+            font-size:14px;
+            font-weight:bold;
+            line-height: 28px;
+            width:188px;
+        }
+        section article ul li span a,
+        section article div#about div ul li span a{
+            font-family:arial;
+            color:#8a9960;
+            display:block;
+            text-decoration:none;
+            height:32px;
+        }
+        section article ul li p,
+        section article div#about div ul li p{
+            width:188px;
+            font-family:arial;
+            font-size:12px;
+            text-align:justify;
+            color:#919E72;
+            line-height:21px;
+        }
+section article div#about{
+	padding:0 0 275px 0;
+	background:none;
+}
+section article div#about div{
+	padding:0 0 30px 0;
+}
+section article div#about h1,
+section article div#blog div h1,
+section article div#gallery div h1,
+section article div#contacts div h1{
+	font-family:arial;
+    font-size:25px;
+    font-weight:bold;
+    margin:0;
+	color:#74854e;
+	background:url(../images/border-dashed.gif) repeat-x left bottom;
+	padding:0 0 15px;
+	width:656px;
+}
+section article div#about h2,
+section article div#contacts h2{
+	font-family:arial;
+	font-size:15px;
+	color:#8C976C;
+	margin:30px 0 0;
+}
+section article div#gallery{
+	background:none;
+}
+section article div#gallery div{
+	padding:0 0 30px;
+	overflow:hidden;
+}
+section article div#gallery ul.paging{
+	margin:37px 0 0 20px;
+	padding:0;
+	list-style:none;
+	background:none;
+	width:auto;
+}
+section article div#gallery ul.paging li a{
+	color:#b77a10;
+	text-decoration:none;
+	font-family:arial;
+	font-size:14px;
+}
+section article div#gallery ul.paging li a:hover{
+	color:#492606;
+}
+section article div#gallery ul.paging li{
+	margin:0 0 0 10px;
+	height:auto;
+}
+section article div#gallery div ul.first{
+	margin:33px 0 0 0;
+}
+section article div#gallery div ul{
+	float:left;
+	margin:33px 0 0 46px;
+	background:none;
+}
+section article div#gallery div ul li.first{
+	margin:0;
+}
+section article div#gallery div ul li{
+	float:none;
+	margin:33px 0 0;
+	height:188px;
+}
+
+
+/*------------------------- Footer --------------------------*/
+footer{
+	background:url(../images/interface.jpg) no-repeat center -84px;
+	float: right;
+    height:51px;
+	width:auto;
+	margin:33px 0 50px;
+    width: 69%;
+}
+footer p{
+	margin:0 10px 0 0;
+	float:right;
+	font-family:arial;
+	font-size:0.7em;
+	line-height: 50px;
+	color:#aea681;
+}
+    /*------- Nav footer --------*/
+        footer nav.footer ul{
+            margin:0 0 0 10px;
+            padding:0;
+            list-style:none;
+            overflow:hidden;
+            float:left;
+        }
+        footer nav.footer ul li{
+            float:left;
+        }
+        footer a:hover{
+            color:#492606;
+        }
+        footer a, .disclaimer {
+            font-family:arial;
+            font-size:0.7em;
+            color:#a58633;
+            text-decoration:none;
+            line-height: 50px;
+            border-color:#a6a378;
+            border-width:1px;
+            border-style:none none none solid;
+            padding: 0 6px;
+        }
+            /* a.disclaimer is iside footer p, which has size:0.7em */
+            .disclaimer {
+                font-size:100%;
+            }
+        /*eliminates the border on the left*/
+        footer ul li:first-child a, .disclaimer, footer .validators a:first-child {
+            border:0;
+        }
+            .validators {
+                float: right;
+                width: 100%;
+                text-align: center;
+            }
+
