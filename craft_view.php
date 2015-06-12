@@ -63,7 +63,7 @@ if(mysqli_num_rows($result) > 0)
         
 		<div class="background">
             
-			<!-- <div id="bg">background</div>    ????? -->
+			<!-- <div id="bg">background</div>  -->
             
 			<div class="page">
                 
@@ -76,7 +76,7 @@ if(mysqli_num_rows($result) > 0)
 
 <?php
 if($foundRecord)
-{#records exist - show beer!
+{#records exist - show flower!
 ?>
 	<article>            
 <div id="gallery">    

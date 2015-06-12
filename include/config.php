@@ -17,9 +17,10 @@ function makeLinks($Array) {
     $myReturn = "";
     foreach($Array as $url => $text) 
     {
-        if ($url == THIS_PAGE) {
+        if ($url == THIS_PAGE || THIS_PAGE == "craft_view.php" && $url == "craft_list.php") {
             $current = " class=\"current\" ";
-        } else {
+        }
+        else {
             $current = "";
         }
         $myReturn .= "<li$current><a href=\"" . $url . "\">" . $text . "</a></li>";    
